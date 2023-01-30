@@ -7,7 +7,7 @@ function ContactBox() {
     <div className="contact-wrapper">
       <AnimeBox duration={0.5}>
         <span className="phone-icon material-symbols-outlined">phone_in_talk</span>
-        <img className="flag-icon" src="./assets/icons8-poland-100.png" alt="PL flag" />
+        <img className="flag-icon" src="/assets/icons8-poland-100.png" alt="PL flag" />
         <div>
           <a className="phone" href="tel:+48787534890">
             +48 787 534 890
@@ -19,7 +19,7 @@ function ContactBox() {
         <span className="phone-icon material-symbols-outlined">phone_in_talk</span>
         <img
           className="flag-icon"
-          src="./assets/icons8-great-britain-100.png"
+          src="/assets/icons8-great-britain-100.png"
           alt="UK flag"
         />
         <div className="phone-contaner">
