@@ -54,7 +54,7 @@ const App = () => {
 
   return (
     <div className="App">
-      {/* <CircleIndicator backGroundColor={'#5cb4c0'} /> */}
+      <CircleIndicator backGroundColor={'#5cb4c0'} />
       <>
         <TopSection />
         <MiddleSection />
