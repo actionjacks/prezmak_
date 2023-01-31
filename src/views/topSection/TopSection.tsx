@@ -15,8 +15,7 @@ function TopSection() {
       <header className="header">
         <div className="banner-wrapper" data-aos="fade">
           <div className="banner-wrapper" data-aos="fade">
-            {/* <div className="bg" /> */}
-            <img src="/bg-cloud_.webp" className="bg" alt="" />
+            <div className="bg" />
             <div className="banner" />
           </div>
         </div>

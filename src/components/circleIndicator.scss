@@ -7,7 +7,11 @@
   left: 0;
   right: 0;
   height: 100%;
-  width: 5px;
+  width: 10px;
+  border-radius: 5px;
   transform-origin: 0%;
   transition: 0.3s ease-in;
+  -webkit-box-shadow: 8px 8px 24px 0px colors.$secondaryFontColor;
+  -moz-box-shadow: 8px 8px 24px 0px colors.$secondaryFontColor;
+  box-shadow: 8px 8px 24px 0px colors.$secondaryFontColor;
 }
