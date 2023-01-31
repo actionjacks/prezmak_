@@ -36,7 +36,7 @@ function MiddleSection() {
                 <img
                   className="box-icon"
                   data-aos="flip-down"
-                  src="../assets/box-icon.png"
+                  src="box-icon.png"
                   alt="box"
                 />
                 <div className="content">

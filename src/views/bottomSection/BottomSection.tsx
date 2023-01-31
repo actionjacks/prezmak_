@@ -42,6 +42,7 @@ function BottomSection({ popupOnClick, popUpState }: BottomSectionProps) {
           popupOnClick(true, 'Niestety Wiadomość nie została wysłana. :(')
         },
       )
+    // eslint-disable-next-line no-unsafe-optional-chaining
     const resetValues = [...formRef.current?.elements].forEach((el) => {
       el.value = ''
     })
@@ -141,7 +142,7 @@ function BottomSection({ popupOnClick, popUpState }: BottomSectionProps) {
         <div className="footer-wrapper">
           <div className="icons-box fb">
             <a href="https://www.facebook.com/przemek.kownacki.52">
-              <img className="box-icon" src="../assets/fb-icon.png" alt="icon-facebook" />
+              <img className="box-icon" src="fb-icon.png" alt="icon-facebook" />
             </a>
           </div>
         </div>
