@@ -19,12 +19,9 @@
     box-shadow: 1px 1px 24px 0px colors.$secondaryBackgroundColor;
 
     @media (max-width: 768px) {
-      max-width: 80%;
-    }
-
-    @media (max-width: 380px) {
       top: 2%;
       padding: 15px 25px;
+      max-width: 80%;
     }
 
     h1 {
@@ -99,7 +96,27 @@
         -moz-box-shadow: 8px 8px 24px 0px colors.$secondaryFontColor;
         box-shadow: 8px 8px 24px 0px colors.$secondaryFontColor;
         border-bottom: 5px solid colors.$primaryFontColor;
+
+        @media (max-width: 768px) {
+          background-position: 27% 0;
+        }
       }
+
+      // .bg {
+      //   animation: slide 220s linear infinite;
+      //   position: absolute;
+      //   z-index: -1;
+      //   height: 100%;
+      //   background-image: url('/bg-cloud_.webp');
+      //   background-repeat: no-repeat;
+      //   background-position: 50% 0;
+      //   background-size: cover;
+      //   opacity: 0.7;
+      //   height: 100%;
+      //   width: 200%;
+      //   min-width: 100%;
+      //   object-fit: cover;
+      // }
 
       .bg {
         animation: slide 220s linear infinite;
