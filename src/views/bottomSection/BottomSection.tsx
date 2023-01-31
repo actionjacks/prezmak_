@@ -144,12 +144,11 @@ function BottomSection({ popupOnClick, popUpState }: BottomSectionProps) {
             <a href="https://www.facebook.com/przemek.kownacki.52">
               <img className="box-icon" src="fb-icon.png" alt="icon-facebook" />
             </a>
+            <div className="footer-data">
+              <p className="ovner">Prezmak - 2023 firma-prezmak@tlen.pl</p>
+              <p className="author">realizacja actionjacks22@gmail.com</p>
+            </div>
           </div>
-        </div>
-
-        <div className="footer-data">
-          <p className="ovner">Prezmak - 2023 firma-prezmak@tlen.pl</p>
-          <p className="author">realizacja actionjacks22@gmail.com</p>
         </div>
       </div>
     </>

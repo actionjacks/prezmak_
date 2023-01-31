@@ -160,7 +160,6 @@
         @include fonts.clamp(18px, 20px);
         color: colors.$primaryBackgroundColor;
         font-weight: 100;
-        border-right: 5px solid;
         padding-right: 15px;
       }
 
@@ -169,7 +168,6 @@
         color: colors.$primaryBackgroundColor;
         font-weight: 100;
         margin-left: 15px;
-        border-right: 5px solid;
         padding-right: 15px;
         text-decoration: none;
         line-height: 3;

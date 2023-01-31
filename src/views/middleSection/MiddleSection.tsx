@@ -9,9 +9,7 @@ function MiddleSection() {
         <div className="middle-section">
           <AnimeBox>
             <AnimeBox duration={0.4}>
-              <p className="middle-title" data-aos="fade-up">
-                Podstawowa przesyłka do 30kg
-              </p>
+              <p className="middle-title">Podstawowa przesyłka do 30kg</p>
             </AnimeBox>
             <div className="price-box">
               <AnimeBox duration={1}>
@@ -42,10 +40,10 @@ function MiddleSection() {
                 <div className="content">
                   <AnimeBox duration={0.8}>
                     <p>
-                      Zaopatrujemy polskie sklepy w produkty żywnościowe, dowozimy
-                      materiały budowlane oraz realizujemy indywidualne zamówienia na
-                      meble w Black Red White, oraz asortyment z Leroy Merlin, Castorama,
-                      Bodzio meble Usługi świadczymy w systemie `od drzwi do drzwi`
+                      Dowozimy materiały budowlane oraz realizujemy indywidualne
+                      zamówienia na meble w Black Red White, oraz asortyment z Leroy
+                      Merlin, Castorama, Bodzio meble Usługi świadczymy w systemie `od
+                      drzwi do drzwi`
                     </p>
                   </AnimeBox>
                 </div>
@@ -55,7 +53,25 @@ function MiddleSection() {
               <p className="bottom-title" data-aos="fade-up">
                 Auto wyposażone jest w DVD, klimatyzację. Posiadamy OC Przewoźnika
               </p>
-              <span className="material-symbols-outlined">arrow_circle_right</span>
+
+              <p className="bottom-title" data-aos="fade-up">
+                Nadanie paczki wymaga wypełnienie deklaracji celnej, plik do pobrania
+                dostępny poniżej, w razie pytań proszę o kontakt. Pomożemy.
+              </p>
+
+              <AnimeBox duration={0.4}>
+                <p className="bottom-title link" data-aos="fade-up">
+                  <span className="material-symbols-outlined">arrow_circle_right</span>
+                  <a
+                    className="bottom-title link"
+                    data-aos="fade-up"
+                    href="CN23.pdf"
+                    download="newfilename"
+                  >
+                    Deklaracja celna do pobrania
+                  </a>
+                </p>
+              </AnimeBox>
             </AnimeBox>
           </AnimeBox>
         </div>

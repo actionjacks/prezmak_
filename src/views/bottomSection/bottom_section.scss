@@ -202,6 +202,7 @@
     .icons-box {
       position: relative;
       width: 100%;
+      z-index: 999;
 
       .box-icon {
         position: absolute;
@@ -218,18 +219,22 @@
 
   .footer-data {
     display: flex;
-    position: absolute;
     bottom: 0;
     left: 25%;
     color: colors.$secondaryFontColor;
     width: 100%;
 
+    @media (max-width: 768px) {
+      padding-top: 25px;
+      flex-direction: column;
+    }
+
     .ovner {
-      @include fonts.clamp(18px, 20px);
+      @include fonts.clamp(16px, 20px);
     }
 
     .author {
-      margin-left: 50px;
+      margin-left: 510px;
       @include fonts.clamp(12px, 15px);
     }
   }
