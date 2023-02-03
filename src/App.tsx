@@ -17,7 +17,7 @@ const App = () => {
     state: false,
     infoText: '',
   })
-  const [error, setError] = useState<string>('')
+  const [error, setError] = useState<string>('') // TODO - move all page content to JSON file
 
   useEffect(() => {
     AOS.init({

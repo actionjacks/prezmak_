@@ -2511,7 +2511,7 @@ stylelint-config-standard-scss@^6.1.0:
 
 stylelint-config-standard@^29.0.0:
   version "29.0.0"
-  resolved "https://registry.npmjs.org/stylelint-config-standard/-/stylelint-config-standard-29.0.0.tgz"
+  resolved "https://registry.yarnpkg.com/stylelint-config-standard/-/stylelint-config-standard-29.0.0.tgz#4cc0e0f05512a39bb8b8e97853247d3a95d66fa2"
   integrity sha512-uy8tZLbfq6ZrXy4JKu3W+7lYLgRQBxYTUUB88vPgQ+ZzAxdrvcaSUW9hOMNLYBnwH+9Kkj19M2DHdZ4gKwI7tg==
   dependencies:
     stylelint-config-recommended "^9.0.0"
