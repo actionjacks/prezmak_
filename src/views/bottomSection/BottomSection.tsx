@@ -141,7 +141,7 @@ function BottomSection({ popupOnClick, popUpState }: BottomSectionProps) {
 
         <div className="footer-wrapper">
           <div className="icons-box fb">
-            <a href="https://www.facebook.com/przemek.kownacki.52">
+            <a href="https://www.facebook.com/profile.php?id=100065218353850">
               <img className="box-icon" src="fb-icon.png" alt="icon-facebook" />
             </a>
             <div className="footer-data">
